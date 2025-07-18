@@ -1,16 +1,25 @@
-Este es un proyecto personal en el cual busco desarrollar una plicacion de escritorio que pueda visualizar señales discretas y procesarlas para detectar pratrones de comportamiento.
-Para poder usar la aplicación primero se tiene que arrastrar la señal que se quiere estudiar a la zona visualización de archivos
+# Visualizador de Señales Discretas
 
-Luego se debe introducir la frecuencia de muestreo de la función
+Este es un proyecto personal en el cual busco desarrollar una aplicación de escritorio que pueda visualizar señales discretas y procesarlas para detectar **patrones** de comportamiento.
 
-Ahora si, seleccionamos el archivo haciendo doble click en el nombre del archivo, esto mostrara la señal original en la grafica superior
+Para poder usar la aplicación, primero se tiene que arrastrar la señal que se quiere estudiar a la zona de visualización de archivos.
 
-Podremos elegir entre la transformada de Fourier, filtro pasa bajos y pasa altos, espectro de frecuencia y autocorrelación de la señal.
-Simplemente hay que seleccionar la pestaña con el nombre.
+Luego se debe introducir la **frecuencia de muestreo** de la función.
 
-Entonces presionamos el botón "Transform" para aplicar el efecto.
+Ahora sí, seleccionamos el archivo haciendo doble clic en el nombre del archivo; esto mostrará la señal original en la **gráfica superior**.
 
-En la pestaña de filtro, no será necesario presionar el botón para ver la grafica, aparece automáticamente. Podremos variar las frecuencias de corte inferior y superior
-y se aplicaran los cambios automáticamente
+Podremos elegir entre:
 
-El botón "save" todavía no está implementado.
+- Transformada de Fourier  
+- Filtro pasa bajos y pasa altos  
+- Espectro de frecuencia  
+- Autocorrelación de la señal  
+
+Simplemente hay que seleccionar la pestaña con el nombre correspondiente.
+
+Entonces presionamos el botón **"Transform"** para aplicar el efecto.
+
+En la pestaña de **filtro**, no será necesario presionar el botón para ver la gráfica; aparece automáticamente. Podremos variar las frecuencias de corte inferior y superior, y se aplicarán los cambios automáticamente.
+
+>  El botón **"Save"** todavía no está implementado.
+
